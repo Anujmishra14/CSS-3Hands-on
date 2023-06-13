@@ -4,11 +4,10 @@
 }
 body{
     background-color: grey;
- 
+    height: auto;
 }
 .topbox {
       width: 450px;
-      height: 130px;
       border: 6px solid rgb(252, 6, 6);
       border-radius: 10px;
       box-shadow: 7px 7px purple;
@@ -32,42 +31,43 @@ body{
 }
 .container{
     width: 99%;
-    height: 555px;
+    height: 560px;
     margin-top: 8px;
-    border: 5px solid green;
+    border: 7px solid green;
     font-weight: bold;
+   
     
 }
 
 .child{
-    width:250px;
+    width:220px;
     height: 200px;
-    border: 5px solid red;
+    border: 6px solid red;
     border-radius: 10px;
-    box-shadow: 6px 6px purple;
-    margin-top: 1px;
+    box-shadow: 7px 7px purple;
     background-color: white;
     text-align: center;
     
-   
 
+    
 }
 .child1{
     font-size: 20px;
     line-height: 35px;
     text-shadow: 1px 1px rgb(66, 2, 66);
     color: rgb(66, 3, 3);
+    padding-top: 15px;
 
 
 }
 .child2{
     position: absolute;
-    left: 1000px;
-    bottom : 273px;
+    left: 1050px;
+    top:166px;
 }
 .child2 img{
     max-width: 80%;
-    margin: 35px 20px;
+    margin-top: 40px;
     border-bottom:2px solid black;
     border-left: 2px solid black;
     border-right: 1px solid black;
@@ -79,15 +79,15 @@ body{
     font-size: 20px;
     text-shadow: 1px 1px purple;
     position: relative;
-    top: 80px;
+    top: 70px;
     left: 5px;
 }
 .child4{
     position: absolute;
-    left: 1000px;
-    top : 450px;
+    left: 1050px;
+    top : 460px;
     font-size: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     text-shadow: 1px 2px 2px rgb(66, 2, 66);
     color: rgb(131, 9, 9);
     line-height: 25px;
@@ -106,79 +106,80 @@ input{
 button{
     background-color: rgb(247, 68, 68);
 }
-
 .lastbox{
    
-    width:800px;
-    height:605px;
-    margin-top: 25px;
+    width: 880px;
+    height: 680px;
+    border:7px solid purple;
+    position: relative;
+    top: 15px;
+    left: 250px;
     text-align: center;
-    position:relative;
-    left: 270px;
-    border: 5px solid purple;
     background-color: green;
+    padding-top: 8px;
+
 }
-.lastbox h1{
-    padding: 15px;
+.lastbox-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 6px;
+    margin-top: 18px;
 }
 .box{
-    width:397px ;
-    height: 240px;
-    background-color: rgb(250, 250, 112);
-    
-    }
-
-.box h2{
-    padding: 15px;
+   width: 435px;
+   height: 300px;
+   border:none; 
+   background-color: rgb(236, 236, 101);
+   font-style: italic;
+ 
 }
-
-.box2{
-    position: relative;
-    left: 402px;
-    bottom: 240px;
+.box h2{
+    padding: 20px;
+}
+.box p{
+    font-size: 20px;
+    
 }
 .box3{
-    width:801px;
-    height: 270px;
-    position: relative;
-    bottom: 230px;
-    left: 3px;
-    font-size: 18px;
+    width:880px;
+    margin-left: 5px;   
 }
 .box3 p{
-    padding-top: 18px;
-    font-style: italic;
-    
+      line-height: 50px;
 }
-.Parent{
-    width: 555px;
-    height: 100px;
-    border:5px solid red;
+.fixedbox{
+    border: 7px solid red;
     border-radius: 10px;
-    background-color: greenyellow;
+    width: 620px;
+    height: 90px;
+    box-shadow: 8px 8px  purple;
+    background-color: rgb(168, 250, 45);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    position: fixed;
-    bottom:244px;
-    left:333px;
-    box-shadow: 6px 6px purple;
+    font-style: italic;
     z-index: 1;
-    
+    text-align: center;
+    position: fixed;
+    top: 515px;
+    left: 308px;
 }
 .fix1{
-    font-size: 30px;
-    font-style: italic;
+    color: rgb(172, 9, 9);
+    font-size: 22px;
     font-weight: bold;
-    color: rgb(156, 5, 5);
-    padding-top: 15px;
-    text-align: center;
+    padding-top: 8px;
 }
 .fix2{
-    font-size:25px;
-    font-style: italic;
-    color: rgb(156, 5, 5);
+    color: rgb(172, 9, 9);
+    font-size: 21px;
     font-weight: bold;
-    padding-top: 5px;
-    padding-left:15px;
-    text-align: center;
+    padding-top: 6px;
 }
+
+
+
+
+
